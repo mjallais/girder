@@ -76,6 +76,7 @@ install_reqs = [
 extras_reqs = {
     'celery_jobs': ['celery'],
     'geospatial': ['geojson'],
+    'ldap': ['pyldap'],
     'thumbnails': ['Pillow', 'pydicom', 'numpy'],
     'worker': ['celery'],
     'oauth': ['pyjwt', 'cryptography']
